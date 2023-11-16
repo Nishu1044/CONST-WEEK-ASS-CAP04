@@ -1,0 +1,143 @@
+/* body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  label {
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 5px;
+    font-size: 16px;
+  } */
+
+
+
+
+
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container > div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* text-align: center; */
+    height: 70%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container img {
+    max-width: 50%;
+    height: auto;
+    
+}
+
+.container h3 {
+    margin-bottom: 10px;
+}
+
+.container h2 {
+    color: #3498db;
+}
+
+.container p {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply styles to the navigation bar */
+nav {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+/* Style the anchor tags in the navigation bar */
+nav a {
+  color: #fff; 
+  text-decoration: none;
+  transition: color 0.3s; 
+}
+nav a:hover {
+  color: #ffd700; 
+}
+
+
+nav label {
+  color: #fff;
+  margin-right: 10px;
+}
+
+nav select {
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  nav ul {
+      margin-top: 10px;
+  }
+
+  nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}

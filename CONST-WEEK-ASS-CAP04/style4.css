@@ -1,0 +1,148 @@
+.header{
+    /* position: fixed;
+    top: 0;left: 0;right: 0;
+    z-index: 999; */
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    border: 2px solid black;
+    background-color:rgb(21, 18, 18);
+    
+}
+
+.location{
+    margin: 0 1rem;
+   text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-style: normal;
+    font-size: medium;
+    text-decoration: none;
+}
+
+
+.header .navbar a{
+    margin: 0 1rem;
+    /* color: var(--black); */
+    color:white;
+    font-weight: 500;
+    font-style: normal;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.header .navbar a:hover{
+    color: #f9d806
+}
+
+#display{
+    height: 20%;
+    width: 50%;
+    border: 5px solid green;
+}
+
+
+.backgound{
+    background-image: url('img/5th.png');
+    background-size: auto;
+    
+}
+#slider-container {
+    width: 65%;
+    overflow: hidden;
+    margin-left: 555px;
+    margin-top: 30px;
+    height: 460px;
+  }
+
+  #slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  img {
+    width: 90%;
+    height: auto;
+  } */
+
+
+  #CUBE{
+    width: 100%;
+    
+  }
+  #CUBE > img{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+
+
+
+  /* Add this CSS to style4.css */
+
+.location-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.location-options {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.location-dropdown:hover .location-options {
+    display: block;
+}
+
+.location-options li {
+    padding: 8px;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.container > div {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc; */
+  text-align: center; 
+ 
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container img {
+  max-width: 50%;
+  height: auto;
+  
+}
+
+.container h3 {
+  margin-bottom: 10px;
+}
+
+.container h2 {
+  color: #3498db;
+}
+
+.container p {
+  font-weight: bold;
+  color: #e74c3c;
+} 
